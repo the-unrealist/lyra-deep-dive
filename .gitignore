@@ -5,6 +5,7 @@ UpgradeLog.htm
 
 # Miscellaneous JetBrains Rider files.
 .idea/
+*.DotSettings.user
 
 # Ignore RiderLink Plugin as it can be reinstalled by JetBrains Rider.
 Plugins/Developer/RiderLink/
