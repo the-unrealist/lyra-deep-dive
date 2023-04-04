@@ -22,6 +22,18 @@
       "TargetAllowList": [
         "Editor"
       ]
+    },
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    }, 
+    {
+      "Name": "ModularGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "ModularGameplayActors",
+      "Enabled": true
     }
   ]
 }

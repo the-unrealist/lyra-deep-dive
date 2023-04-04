@@ -17,8 +17,10 @@ public class LyraGame : ModuleRules
 		{
 			"Core", 
 			"CoreUObject", 
-			"Engine", 
-			"InputCore"
+			"Engine",
+			"ModularGameplay",
+			"ModularGameplayActors",
+			"GameFeatures"
 		});
 
 		// Generate compile errors if using DrawDebug functions in test/shipping builds.
