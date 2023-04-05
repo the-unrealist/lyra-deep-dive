@@ -15,7 +15,7 @@ public class LyraEditorTarget : TargetRules
 		LyraGameTarget.ApplySharedLyraTargetSettings(this);
 		
 		// This is used for touch screen development along with the "Unreal Remote 2" app
-		// Citrus: https://docs.unrealengine.com/5.1/en-US/using-the-remote-session-plugin-for-ios-development-in-unreal-engine/
+		// Matt: https://docs.unrealengine.com/5.1/en-US/using-the-remote-session-plugin-for-ios-development-in-unreal-engine/
 		EnablePlugins.Add("RemoteSession");
 	}
 }
