@@ -4,7 +4,7 @@
 #include "GameFramework/Actor.h"
 
 DEFINE_LOG_CATEGORY(LogLyra);
-// Citrus: Omitted all other log categories.
+// Matt: Omitted all other log categories.
 
 FString GetClientServerContextString(UObject* ContextObject)
 {

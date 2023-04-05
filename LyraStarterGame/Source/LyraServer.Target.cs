@@ -15,7 +15,7 @@ public class LyraServerTarget : TargetRules
 
 		LyraGameTarget.ApplySharedLyraTargetSettings(this);
 		
-		// Citrus: This turns on asserts in test and shipping builds.
+		// Matt: This turns on asserts in test and shipping builds.
 		bUseChecksInShipping = true;
 	}
 }

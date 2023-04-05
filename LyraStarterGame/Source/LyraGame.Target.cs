@@ -17,7 +17,7 @@ public class LyraGameTarget : TargetRules
 
     internal static void ApplySharedLyraTargetSettings(TargetRules Target)
     {
-        // Citrus: Omitted most target configuration based on build environment.
+        // Matt: Omitted most target configuration based on build environment.
         if (Target.BuildEnvironment == TargetBuildEnvironment.Unique)
         {
             Target.bUseLoggingInShipping = true;
