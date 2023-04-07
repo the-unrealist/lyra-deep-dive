@@ -22,6 +22,11 @@ public class LyraGame : ModuleRules
 			"ModularGameplayActors",
 			"GameFeatures"
 		});
+		
+		PrivateDependencyModuleNames.AddRange(new []
+		{
+			"UMG"
+		});
 
 		// Generate compile errors if using DrawDebug functions in test/shipping builds.
 		PublicDefinitions.Add("SHIPPING_DRAW_DEBUG_ERROR=1");
