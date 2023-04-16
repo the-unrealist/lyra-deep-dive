@@ -4,6 +4,7 @@
 #include "GameFramework/Actor.h"
 
 DEFINE_LOG_CATEGORY(LogLyra);
+DEFINE_LOG_CATEGORY(LogLyraExperience);
 // Matt: Omitted all other log categories.
 
 FString GetClientServerContextString(UObject* ContextObject)
